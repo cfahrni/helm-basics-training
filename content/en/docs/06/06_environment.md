@@ -55,7 +55,7 @@ Create for the Production environment e new value files named `values-prod.yaml`
 * Due to the higher load in our production environment, we change the number of replicas to `3`
 * For production usage we also want to persist the data. To enable the database set `database.enabled` to `true`
 * Change the database user under `database.databaseuser` to `acend-prod`
-* As a best practice, never use the same password in different environemnts. Change the password under `database.databasename`
+* As a best practice, never use the same password in different environments. Change the password under `database.databasename`
 * Change the Ingress configuration to match the following path schema `mychart-production-<namespace>.{{% param labAppUrl %}}`
 
 
