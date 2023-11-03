@@ -11,7 +11,7 @@ A typical use case is to deploy your application into a Development and Producti
 In this lab we are going to show you how to prepare your Helm releases for different environments.
 
 
-## Task {{% param sectionnumber %}}.1 Create a devlopment release
+## Task {{% param sectionnumber %}}.1 Create a development release
 
 
 Let us start with a new value file for the Development environment. Create a new file called `values-dev.yaml` and add following content to the file
